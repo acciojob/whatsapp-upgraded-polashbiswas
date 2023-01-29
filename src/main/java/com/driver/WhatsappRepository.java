@@ -32,7 +32,7 @@ public class WhatsappRepository {
         Group group = new Group();
 
         if(users.size()==2){
-            group.setName(users.get(1).getName());
+            group.setName(users.get(2).getName());
             group.setNumberOfParticipants(2);
         }
         else {
